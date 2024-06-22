@@ -2,7 +2,7 @@
 
 :root {
     --primary-color: #23C9FF;
-    --primary-color: #DB5461;
+    --secondary-color: #DB5461;
     --accent1-color: #248232;
     --accent2-color: #F9C784;
 
@@ -23,7 +23,7 @@ body {
     padding: 20px;
 }
 
-h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
@@ -65,9 +65,9 @@ nav a:hover {
 
 
 
-h1 {
+/*h1 {
     font-family: 'Rock Salt', 'Arial Black';
-}
+}*/
 
 
 
