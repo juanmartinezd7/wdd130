@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rock+Salt&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-    
-  }
 
 :root {
     --primary-color: #23C9FF;
@@ -27,39 +20,62 @@
 
 body {
     padding: 20px;
-    width: 28%;
+    width: 25%;
+
+}
+
+
+.hero {
+    margin: 10px auto;
+    position: relative;
     
 }
-
-main {
-    position: relative;
-}
-
 
 .hero img {
     display: block;
     width: 100%;
     height: auto;
+    
+
 }
 
 h1 {
     position: absolute;
     padding: 2rem;
     top: 1%;
-    right: 25%;
+    right: 25%; 
     
 }
 
-#imgc {
-    float: right;
+article {
+    position: absolute;
 }
 
-article p {
-    position: absolute;
+.hero article  p {
+    position: relative;
     color: red;
-    padding: 25px;
-    opacity: .95;
+    font-weight: bold;
+	top: -250px;
+	right: 0px;
+	background: radial-gradient(#eee, #969ca9);
+	border: 1px solid #000;
+	padding: 0.65rem;
+	box-shadow: 0 0 30px #111;
+	opacity: .6;
+    
 }
+
+.hero article  img {
+    float: right;
+    position: relative;
+    width: 35%;
+    margin-left: 10px;
+    bottom: 230px;
+    
+
+}
+
+
 
 
 h2 {
