@@ -20,7 +20,7 @@
 
 body {
     padding: 20px;
-    width: 25%;
+    width: 30%;
 
 }
 
@@ -68,7 +68,7 @@ article {
 .hero article  img {
     float: right;
     position: relative;
-    width: 35%;
+    width: 22%;
     margin-left: 10px;
     bottom: 230px;
     
