@@ -51,7 +51,7 @@ article {
     position: absolute;
 }
 
-.hero article  p {
+.hero article p {
     position: relative;
     color: red;
     font-weight: bold;
@@ -65,7 +65,7 @@ article {
     
 }
 
-.hero article  img {
+.hero article img {
     float: right;
     position: relative;
     width: 22%;
