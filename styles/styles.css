@@ -49,17 +49,18 @@ aside img{
    
 }
 
-header, .grid {
+header, footer, .grid {
   max-width: 840px;
   margin: 0 auto;
   margin-top: 15px;
-  border-bottom: 1px solid #000;
+  
   
   /*text-align: center;*/
 }
 
 footer {
   text-align: center;
+  border-top: 1px solid #000;
   
 }
 
