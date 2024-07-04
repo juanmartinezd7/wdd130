@@ -42,31 +42,26 @@ p {
 }
 
 
-/*aside {
-  width: 20rem;
-  /*margin: 1rem;
-  border: 1px solid rgba(0, 0, 0, 0.2); /* 1 */
-  /*padding: 1rem;
-  background-color: #eee;
-  color: #333;*/
-  /*text-align: center;
-  position: relative;
-}*/
 
 aside img{
-  width: 200px;
+  width: 275px;
   height: auto;
    
 }
 
-header, .grid, footer {
+header, .grid {
   max-width: 840px;
   margin: 0 auto;
   margin-top: 15px;
-  border-top: 1px solid #000;
-  text-align: center;
+  border-bottom: 1px solid #000;
+  
+  /*text-align: center;*/
 }
-/* Class Selectors */
+
+footer {
+  text-align: center;
+  
+}
 
 .box{
   margin: 1rem;
