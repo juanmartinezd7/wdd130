@@ -71,42 +71,123 @@ article {
     width: 22%;
     margin-left: 10px;
     bottom: 230px;
-    
-
 }
-
-
-
-
-h2 {
-    color: #DB5461;
-}
-
 
 
 header {
     padding: 20px;
     background-color: #23C9FF;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    
 }
 
+header img {
+  width: 150px;
+  height: auto;
+  border: 1px solid rgb(98, 103, 136);
+  box-shadow: 0 0 30px gray;
+  padding: 1rem;
+  
+}
 
 nav {
-    background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
+    list-style: none;
+    text-align: right;
+    padding: 3rem;
 }
 
 nav a {
     display: block;
-    color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
+}
 
+#histo {
+    display: grid;
+    grid-template-columns:  2fr 2fr 2fr;
+    justify-items: center;
+    
+}
+
+#histo h2 {
+    grid-column: 2;
+    grid-row: 1;
+    z-index: 2;
+    color: red;
+}
+
+#histo img {
+    border: 1px solid rgb(98, 103, 136);
+    padding: .5rem;
+    grid-column: 2;
+    grid-row: 1;
+    width: 100px;
+    
+}
+
+#histotx1 {
+    grid-column: 1;
+    grid-row: 1;
+    border: solid #000;
+    padding: 1rem;
+}
+
+#histotx2 {
+    grid-column: 3;
+    grid-row: 1;
+    border: solid #000;
+    padding: 1rem;
+}
+
+#advent {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px;
+    grid-gap: 15px;
+    padding: 2px;
+    justify-items: center;
+    
+}
+
+#advent h2{
+    color: blue;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    justify-self: left;
+    
+}
+
+#adventpic1 {
+    width: 100px;
+    height: 100px;
+    
+}
+
+#adventpic2 {
+    width: 100px;
+    height: 100px;
+}
+
+#adventpic3 {
+    width: 100px;
+    height: 100px;
+}
+
+#adventpic4 {
+    width: 100px;
+    height: 100px;
+}
+
+#adventpic5 {
+    width: 100px;
+    height: 100px;
 }
 
 nav a:link, nav a:visited {
-    color: var(--nav-link-color);
-
+    color: red;
 }
 
 nav a:hover {
@@ -114,4 +195,21 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
+
+.sociallinks {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #DB5461;
+    align-items: center;   
+}
+
+.sociallinks p {
+    width: 450px;
+}
+
+.sociallinks nav {
+    width: 1px;
+    justify-content: center;
+    align-items: center;    
+}
 
