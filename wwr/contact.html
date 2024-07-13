@@ -13,56 +13,88 @@
     <header>
         <img src="images/Picture1.jpg" alt="Rafting Site Logo">
         <nav>
-            <a href="/wwr/index.html">index</a>
-            <a href="/wwr/about.html">about</a>
-            <a href="/wwr/trips.html">trips</a>
-            <a href="/wwr/contact.html">contact</a>
+            <a href="/index.html">Index</a>
+            <a href="/about.html">About</a>
+            <a href="/trips.html">Trips</a>
+            <a href="/contact.html">Contact</a>
         </nav>
 
     </header>
     <main>
-        <div class="hero">
-           <img src="images/oars-river-rafting-trip-grand-canyon.png" alt="Company">
-           <h1>Cowboy Rafting</h1>
-           <article>
-            <img src="images/logo.PNG" alt="Happy Customer" id="img1">
-             <p id="text1">Everything you are looking for on a Full Day Rafting trip, where you will experience the rapids.
-                 We will equip you with any necessary gear and a safety briefing from your expert rafting guide.
-                100% customer satisfaction.</p>
-            </article>
+        <div class="contact">
+            <h1>Contact Us</h1>
+            <h2>Send Us a Message</h2>
+            <p>Cowboy Rafting</p>
+            <p>1234 Acme Rd, </p>
+            <p>Road Runner, TX 96876</p>
+            <p>Phone: 999-123-8888</p>
+            <p>Email: <a href="mailto:">cowboyrafting</a></p>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6710.807393969111!2d-97.80799326523234!3d32.75502116033278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1720835975135!5m2!1sen!2sus"
+                width="350" height="225" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </div>
-        
-        <section id="histo">
-            <p id="histotx1">Located in the heart of Texas, Cowboy Rafting has some of the finest whitewater rafting this side
-                of the Lone Star State. During your whitewater rafting trip, expect Class II & III rapids.</p>
-           <h2>History</h2>
-           <img src="images/histopic.PNG" alt="Happy Customer" id="histoimg">
-           <p id="histotx2">Our guided rafting trips, canoe trips, guided hikes and backroad tours are structured to give you 
-            information about the region's history, geology, wildlife and plant life through the expertise of our knowledgeable guides.</p>
-        </section>
-        <section id="advent">
-            <h2>Adventure Awaits You!</h2>
+        <div class="employee">
             <figure>
-            <img src="images/whitewater-rafting-overview-400.jpg" alt="Rafting Adventure1" id="adventpic1">
-            <figcaption>Canyoning Tours</figcaption>
+                <img src="images/employee1.jpg" alt="Employee1">
+                <figcaption>Book online</figcaption>
             </figure>
             <figure>
-            <img src="images/oars-river-rafting-400.jpg" alt="Rafting Adventure2" id="adventpic2">
-            <figcaption>Peaceful Rapids</figcaption>
+                <img src="images/employee2.jpg" alt="Employee2">
+                <figcaption>knowledgeable staff</figcaption>
             </figure>
             <figure>
-            <img src="images/int13-400.jpg" alt="Rafting Adventure3" id="adventpic3">
-            <figcaption>No experience necessary!</figcaption>
+                <img src="images/employee3.jpg" alt="Employee3">
+                <figcaption>Expert Guides</figcaption>
             </figure>
-            <figure>
-            <img src="images/a56ba3_400.jpg" alt="Rafting Adventure4" id="adventpic4">
-            <figcaption>River rapids</figcaption>
-            </figure>
-            <figure>
-            <img src="images/rafting_sjoa_400.jpg" alt="Rafting Adventure5" id="adventpic5">
-            <figcaption>Paddle the rapids</figcaption>
-            </figure>
-        </section>
+        </div>
+        <div class="info">
+            <form>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                  <div class="form-item column1">    
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                  </div>
+                  <div class="form-item column1">
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail">
+                  </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Reason for contacting us</legend>
+                    <div class="form-item">
+                        <div>
+                            <input type="radio" name="reason" id="radio1" value="general">
+                            <label for="radio1">General Inquiry</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="reason" id="radio2" value="redervation">
+                            <label for="radio2">Reservation Question</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="reason" id="radio3" value="website">
+                            <label for="radio3">Website Suggestion</label>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Message</legend>
+                    <div class="writemessage">
+                        <label for="feedback">Please leave us a message:</label>
+                        <textarea id="feedback" name="feedback" rows="6"></textarea>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Subscribe To Our News Letter</legend>
+                    <div class="newsletter">
+                    <label for="check">Please subscribe me to the news letter</label>
+                    <input type="checkbox" id="check" name="check">
+              </div>
+                </fieldset>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
     </main>
     <footer class="sociallinks">
         <p>©2024 🌴 Cowboy Rafting Co.🌴 Juan Martinez 🌴 Texas</p>
@@ -79,7 +111,5 @@
         </nav>
 
     </footer>
-    
-    
 </body>
 </html>
