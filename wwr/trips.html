@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trips</title>
-    
+    <title>Cowboy Rafting Co. "Trips"</title>
+    <meta name="description" content="Juan Martinez trips page for WDD 130: Web Fundamentals BYU-Idaho. 
+    Webpage to demostrate basic principal of HTML and CSS. And the use of table element and form element.">
+    <meta name="author" content="Juan Martinez">
+    <link rel="stylesheet" href="styles/rafting.css">
 </head>
 <body>
     <header>
         <img src="images/Picture1.jpg" alt="Rafting Site Logo">
-        <nav>
+        <nav class="headlinks">
             <a href="/index.html">Index</a>
             <a href="/about.html">About</a>
             <a href="/trips.html">Trips</a>
@@ -18,16 +21,125 @@
 
     </header>
     <main>
-        <img src="images/coming soon.png" alt="Page coming soon" height="600">
-        <p>PAGE COMING SOON</p>
-     
+        <div class="triphero">
+            <img src="images/rafting.jpg" alt="Company">
+            <h1>BOOK A TRIP</h1>
+            <article>
+              <p id="text1">Book on line or give us a call at 999-123-8888 to begin your adventure.</p>
+             </article>
+         </div>
+         <form>
+            <fieldset>
+            <button type="button" onclick="location.href='/contact.html' "> Book Now </button>
+            </fieldset>
+         </form>
+        <div class="trips">
+            <figure>
+                <img src="images/halfday.jpg" alt="Half Day Trip">
+                <figcaption>Half day trip</figcaption>
+            </figure>
+            <figure>
+                <img src="images/oneday.jpg" alt="One Day Trip">
+                <figcaption>One day trip</figcaption>
+            </figure>
+            <figure>
+                <img src="images/2to6.jpg" alt="2 to 6 days trip">
+                <figcaption>2 to 6 days trip</figcaption>
+            </figure>
+        </div>
+        <div class="info">
+            <h2>Price List For 2024</h2>
+<table>
+	<caption>
+		Prices subject to change without notice!
+	</caption>
+	<thead>
+		<tr>
+			<th scope="col">Trip type</th>
+			<th scope="col">Number of persons</th>
+			<th scope="col">Price per person</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th rowspan="4">Half Day Tour</th>
+			<th scope="row">1</th>
+			<td>$82.00</td>
+		</tr>
+		<tr>
+			<th scope="row">2</th>
+			<td>$75.00</td>
+		</tr>
+		<tr>
+			<th scope="row">3 to 6</th>
+			<td>$70.00</td>
+		</tr>
+		<tr>
+			<th scope="row">7 or more</th>
+			<td>$65.00</td>
+		</tr>
+	</tbody>
+    <tbody>
+		<tr>
+			<th rowspan="4">One Day Tour</th>
+			<th scope="row">1</th>
+			<td>$150.00</td>
+		</tr>
+		<tr>
+			<th scope="row">2</th>
+			<td>$140.00</td>
+		</tr>
+		<tr>
+			<th scope="row">3 to 6</th>
+			<td>$135.00</td>
+		</tr>
+		<tr>
+			<th scope="row">7 or more</th>
+			<td>$130.00</td>
+		</tr>
+	</tbody>
+    <tbody>
+		<tr>
+			<th rowspan="4">2 to 6 days tour add $250.00 per day after the price for the first day</th>
+			<th scope="row">1</th>
+			<td>$350.00</td>
+		</tr>
+		<tr>
+			<th scope="row">2</th>
+			<td>$325.00</td>
+		</tr>
+		<tr>
+			<th scope="row">3 to 6</th>
+			<td>$315.00</td>
+		</tr>
+		<tr>
+			<th scope="row">7 or more</th>
+			<td>$305.00</td>
+		</tr>
+	</tbody>
+	<tfoot>
+        <p>Childre under 18 must be accompanied by a parent or legal guardian</p>
+	</tfoot>
+</table>
+        </div>
     </main>
-    <footer>
-        <p>©2024 🌴 Cowboys Rafting Co. 🌴 Juan Martinez 🌴 Texas</p>
-      
+    <footer class="sociallinks">
+        <p>©2024 🌴 Cowboy Rafting Co.🌴 Juan Martinez 🌴 Texas</p>
+        <nav class="sociallinks">
+            <a href="https://app.moqups.com/X7TKU7dIIBIj3mTPsnNhiDMWrOhF7LGD/view/page/ad64222d5">
+                <img src="images/wireframe20s.jpg" alt="wireframe" id="wireframe">
+            </a>
+            <a href="https://facebook.com">
+                <img src="images/facebook_logo20.jpg" alt="facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/tweet_twitter_20.jpg" alt="twitter">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img src="images/instagram_20.jpg" alt="instagram">
+            </a>
+        </nav>
 
     </footer>
-    
-    
 </body>
 </html>

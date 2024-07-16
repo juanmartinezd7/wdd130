@@ -91,6 +91,20 @@ header img {
   
 }
 
+.headlinks {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;   
+    grid-gap: 35px;
+}
+
+.aboutlinks {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;   
+    grid-gap: 35px;
+}
+
 nav {
     font-size: 1.2rem;
     display: flex;
@@ -186,6 +200,7 @@ nav a {
 
 nav a:link, nav a:visited {
    color: #111;
+   
 }
 
 nav a:hover {
@@ -209,6 +224,13 @@ nav a:hover {
     width: 1px;
     justify-content: center;
     align-items: center;    
+}
+
+.contactlinks {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;   
+    grid-gap: 35px;
 }
 
 .contact {
@@ -242,6 +264,20 @@ nav a:hover {
     text-align: center;
 }
 .employee img {
+    width: 150px;
+    height: 100px;
+}
+
+.trips {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 85px;
+    margin-left: 50px;
+    padding: 2px;
+    justify-items: center;
+    text-align: center;
+}
+.trips img {
     width: 150px;
     height: 100px;
 }
@@ -316,3 +352,95 @@ button {
     grid-template-columns: 1fr 2fr;
 }
 
+.triphero {
+    margin: 10px auto;
+    position: relative;
+    color: red;
+    
+}
+
+.triphero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    
+
+}
+
+.triphero h1 {
+    position: absolute;
+    padding: 2rem;
+    bottom: 70%;
+    right: 25%; 
+}
+
+
+
+.triphero article p {
+    position: relative;
+    color: blue;
+    font-weight: bold;
+	bottom: 130px;
+	left: 40px;
+	background: radial-gradient(#eee, #969ca9);
+	border: 1px solid #000;
+	padding: 0.65rem;
+	box-shadow: 0 0 30px #111;
+	opacity: .6;
+    
+}
+
+.triphero article img {
+    float: right;
+    position: relative;
+    width: 22%;
+    margin-left: 10px;
+    bottom: 230px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+  }
+  
+  caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: 700;
+       font-style: italic;
+  }
+  
+  thead,
+  tfoot {
+    background-color: rgb(228 240 245);
+  }
+  
+  thead th {
+      background-color: #000;
+      color: #fff;
+  }
+  
+  th,
+  td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+  }
+  
+  td:last-of-type {
+    text-align: center;
+  }
+  tbody > tr:nth-of-type(even) {
+    background-color: rgb(237 238 242);
+  }
+  
+  tfoot th {
+    text-align: right;
+  }
+  
+  tfoot td {
+    font-weight: bold;
+  }
+  
