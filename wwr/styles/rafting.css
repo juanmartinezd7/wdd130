@@ -356,7 +356,6 @@ button {
     margin-top: 1px;
     margin-bottom: -80px;
     position: relative;
-    color: red;
     
 }
 
@@ -371,13 +370,13 @@ button {
     padding: 2rem;
     bottom: 70%;
     right: 25%; 
+    color: red;
 }
 
 
 
 .triphero h4 {
     position: relative;
-    color: blue;
     font-weight: bold;
 	bottom: 130px;
 	left: 0px;
