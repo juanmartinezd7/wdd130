@@ -353,7 +353,8 @@ button {
 }
 
 .triphero {
-    margin: 10px auto;
+    margin-top: 1px;
+    margin-bottom: -80px;
     position: relative;
     color: red;
     
@@ -362,9 +363,7 @@ button {
 .triphero img {
     display: block;
     width: 100%;
-    height: auto;
-    
-
+    /*height: auto;*/
 }
 
 .triphero h1 {
@@ -376,12 +375,12 @@ button {
 
 
 
-.triphero article p {
+.triphero h4 {
     position: relative;
     color: blue;
     font-weight: bold;
 	bottom: 130px;
-	left: 40px;
+	left: 0px;
 	background: radial-gradient(#eee, #969ca9);
 	border: 1px solid #000;
 	padding: 0.65rem;
@@ -390,13 +389,6 @@ button {
     
 }
 
-.triphero article img {
-    float: right;
-    position: relative;
-    width: 22%;
-    margin-left: 10px;
-    bottom: 230px;
-}
 
 table {
     border-collapse: collapse;
