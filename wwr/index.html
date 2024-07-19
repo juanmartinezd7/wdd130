@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
-    
+    <title>Cowboy Rafting Co. "Index page"</title>
+    <meta name="description" content="Juan Martinez Index page for WDD 130: Web Fundamentals BYU-Idaho. 
+    Webpage to demostrate basic principal of HTML and CSS. And the use of grid and flexbox">
+    <meta name="author" content="Juan Martinez">
+    <link rel="stylesheet" href="styles/rafting.css">
 </head>
 <body>
     <header>
         <img src="images/Picture1.jpg" alt="Rafting Site Logo">
-        <nav>
+        <nav class="aboutlinks">
             <a href="/index.html">Index</a>
             <a href="/about.html">About</a>
             <a href="/trips.html">Trips</a>
@@ -18,13 +21,74 @@
 
     </header>
     <main>
-        <img src="images/coming soon.png" alt="Page coming soon" height="600">
-        <p>PAGE COMING SOON</p>
-     
+        <div class="heroind">
+           <img src="images/index1.jpg" alt="Company">
+           <h1>Cowboy Rafting</h1>
+             <h4>At Cowboy Rafting we do all the work, you have all the fun!<br/>
+            Our mission is to provide a safe, fun, convenient and well river recreation experience!
+        we are the experts in Texas.</h4>
+        </div>
+    <div class="info">
+        <form>
+            <fieldset>
+                <legend>Subscribe To Our News Letter</legend>
+                <div class="newsletter">
+                <label for="check">Please subscribe me to the news letter</label>
+                <input type="checkbox" id="check" name="check">
+          </div>
+            </fieldset>
+            <fieldset>
+                <legend>Contact Information</legend>
+              <div class="form-item column1">    
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+              </div>
+              <div class="form-item column1">
+                <label for="useremail">Email:</label>
+                <input type="email" id="useremail" name="useremail">
+              </div>
+            </fieldset>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <div class="histoindex">  
+           <p>At Cowboy Rafting, we provide the best customer service and ensure our customers
+             have a fun trip while staying safe.</p>
+           <h2>Visit our trips page for more detailed information</h2>
+           <a href="/trips.html">
+            <img src="images/histopic.PNG" alt="Visit the trips page">
+           </a>
+           <h6>Click the image above to visit the trips page</h6>
+    </div>
+    <div class="indexdetails">
+            <h2>We are the biggest rafting company in Texas</h2>
+            <figure>
+            <img src="images/index2.jpg" alt="Expert Guides" id="pic1">
+            <figcaption>We have The Best Experienced And Trained Tour Guides.</figcaption>
+            </figure>
+            <figure>
+            <img src="images/index4.jpg" alt="Best Rapids in Texas" id="pic2">
+            <figcaption>We Have Access To The Best Rapids In Texas</figcaption>
+            </figure>
+        </div>
     </main>
-    <footer>
-        <p>©2024 🌴 Cowboys Rafting Co. 🌴 Juan Martinez 🌴 Texas</p>
-      
+    <footer class="sociallinks">
+        <p>©2024 🌴 Cowboy Rafting Co.🌴 Juan Martinez 🌴 Texas</p>
+        <nav class="sociallinks">
+            <a href="https://app.moqups.com/qEkVOh2iDnH9J5033csdxmw8TQUQjxQx/view/page/ad64222d5">
+                <img src="images/wireframe20s.jpg" alt="wireframe" id="wireframe">
+            </a>
+            <a href="https://facebook.com">
+                <img src="images/facebook_logo20.jpg" alt="facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/tweet_twitter_20.jpg" alt="twitter">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img src="images/instagram_20.jpg" alt="instagram">
+            </a>
+        </nav>
 
     </footer>
     
