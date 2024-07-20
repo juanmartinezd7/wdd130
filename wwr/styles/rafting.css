@@ -181,9 +181,7 @@ nav a {
 .histoindex h6 {
     position: absolute;
     grid-row: 2;
-    z-index: 2;
-    color: red;
-    
+    z-index: 2;   
 }
 
 #histo img {
